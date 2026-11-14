@@ -45,8 +45,8 @@ python-dotenv==1.0.0
 
 # Create .env
 @"
-SUPABASE_URL=https://tciilqtmjdhuxxvlurgz.supabase.co
-SUPABASE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRjaWlscXRtamRodXh4dmx1cmd6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDExNzU5MTAsImV4cCI6MjAxNjc1MTkxMH0.BL-SE90QKp1-CE_m-6OQO96am5DGPKkqV32_LPqCFzQ
+SUPABASE_URL=https://YOUR_PROJECT_REF.supabase.co
+SUPABASE_KEY=your_anon_key
 API_BASE_URL=http://localhost:8000
 FRONTEND_URL=http://localhost:3000
 "@ | Out-File "backend\.env" -Encoding UTF8
@@ -210,8 +210,8 @@ $packageJson | Out-File "frontend\package.json" -Encoding UTF8
 
 # Create .env.local
 @"
-NEXT_PUBLIC_SUPABASE_URL=https://tciilqtmjdhuxxvlurgz.supabase.co
-NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRjaWlscXRtamRodXh4dmx1cmd6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDExNzU5MTAsImV4cCI6MjAxNjc1MTkxMH0.BL-SE90QKp1-CE_m-6OQO96am5DGPKkqV32_LPqCFzQ
+NEXT_PUBLIC_SUPABASE_URL=https://YOUR_PROJECT_REF.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key
 NEXT_PUBLIC_API_URL=http://localhost:8000
 NEXT_PUBLIC_GA_ID=G-38V3K9TS96
 "@ | Out-File "frontend\.env.local" -Encoding UTF8
@@ -636,7 +636,7 @@ echo ✅ ALL SERVICES STARTED!
 echo.
 echo 🌐 Frontend: http://localhost:3000
 echo 🔧 Backend:  http://localhost:8000
-echo 📊 Supabase: https://tciilqtmjdhuxxvlurgz.supabase.co
+echo 📊 Supabase: https://YOUR_PROJECT_REF.supabase.co
 echo.
 echo 📋 Next Steps:
 echo 1. Open http://localhost:3000 in browser
@@ -696,7 +696,7 @@ Write-Host "🌐 URLs after launch:" -ForegroundColor Cyan
 Write-Host "   • Frontend: http://localhost:3000" -ForegroundColor White
 Write-Host "   • Backend:  http://localhost:8000" -ForegroundColor White
 Write-Host "   • API Docs: http://localhost:8000/docs" -ForegroundColor White
-Write-Host "   • Supabase: https://tciilqtmjdhuxxvlurgz.supabase.co" -ForegroundColor White
+Write-Host "   • Supabase: https://YOUR_PROJECT_REF.supabase.co" -ForegroundColor White
 Write-Host ""
 Write-Host "🎯 Test the VIP form at http://localhost:3000!" -ForegroundColor Green
 Write-Host ""

@@ -24,8 +24,8 @@ try {
 Write-Host "
 [4] Testing Supabase connection..." -ForegroundColor Cyan
 try {
-     = Invoke-RestMethod -Uri "https://tciilqtmjdhuxxvlurgz.supabase.co/rest/v1/" -Headers @{
-        "apikey" = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRjaWlscXRtamRodXh4dmx1cmd6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDExNzU5MTAsImV4cCI6MjAxNjc1MTkxMH0.BL-SE90QKp1-CE_m-6OQO96am5DGPKkqV32_LPqCFzQ"
+     = Invoke-RestMethod -Uri "https://YOUR_PROJECT_REF.supabase.co/rest/v1/" -Headers @{
+        "apikey" = "your_anon_key"
     } -TimeoutSec 5
     Write-Host "✅ Supabase is accessible" -ForegroundColor Green
 } catch {

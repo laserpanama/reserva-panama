@@ -10,9 +10,9 @@ YELLOW='\033[1;33m'
 NC='\033[0m' # No Color
 
 # Configuration
-SUPABASE_URL="https://tciilqtmjdhuxxvlurgz.supabase.co"
-SUPABASE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRjaWlscXRtamRodXh4dmx1cmd6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDExNzU5MTAsImV4cCI6MjAxNjc1MTkxMH0.BL-SE90QKp1-CE_m-6OQO96am5DGPKkqV32_LPqCFzQ"
-SUPABASE_SERVICE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRjaWlscXRtamRodXh4dmx1cmd6Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTcwMTE3NTkxMCwiZXhwIjoyMDE2NzUxOTEwfQ.Q5yOJAC8lFSCpA2jppvdfG-R8Dnib0WpFq8CInMAlAE"
+SUPABASE_URL="${SUPABASE_URL:?Set SUPABASE_URL (see .env.example) before running}"
+SUPABASE_KEY="${SUPABASE_ANON_KEY:?Set SUPABASE_ANON_KEY (see .env.example) before running}"
+SUPABASE_SERVICE_KEY="${SUPABASE_SERVICE_ROLE_KEY:?Set SUPABASE_SERVICE_ROLE_KEY (see .env.example) before running}"
 
 echo -e "${YELLOW}📦 Installing dependencies...${NC}"
 
@@ -257,7 +257,7 @@ echo -e "${GREEN}🎉 Setup Complete!${NC}"
 echo ""
 echo "🌐 Frontend: http://localhost:3000"
 echo "🔧 Backend API: http://localhost:8000"
-echo "📊 Supabase Dashboard: https://tciilqtmjdhuxxvlurgz.supabase.co"
+echo "📊 Supabase Dashboard: https://YOUR_PROJECT_REF.supabase.co"
 echo ""
 echo "📋 Next Steps:"
 echo "1. Open http://localhost:3000 in your browser"

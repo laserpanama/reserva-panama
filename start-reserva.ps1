@@ -76,6 +76,6 @@ Write-Host "   • Backend API:     http://localhost:8000" -ForegroundColor Cyan
 Write-Host "   • API Docs:        http://localhost:8000/docs" -ForegroundColor Cyan
 Write-Host "   • Health Check:    http://localhost:8000/health" -ForegroundColor Cyan
 Write-Host "`n📊 SUPABASE:" -ForegroundColor White
-Write-Host "   • Dashboard: https://app.supabase.com/project/tciilqtmjdhuxxvlurgz" -ForegroundColor Gray
+Write-Host "   • Dashboard: https://app.supabase.com/project/YOUR_PROJECT_REF" -ForegroundColor Gray
 Write-Host "`n🛑 TO STOP: Close both terminal windows" -ForegroundColor Yellow
 Write-Host "`n✅ Done! Your app is ready." -ForegroundColor Green
