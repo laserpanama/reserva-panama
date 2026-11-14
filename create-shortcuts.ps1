@@ -41,7 +41,7 @@ Create-Shortcut -Name "Reserva Panamá - Frontend" `
 
 # Shortcut 3: Open Supabase Dashboard
 Create-Shortcut -Name "Reserva Panamá - Database" `
-    -TargetPath "https://tciilqtmjdhuxxvlurgz.supabase.co" `
+    -TargetPath "https://YOUR_PROJECT_REF.supabase.co" `
     -IconLocation "$env:SystemRoot\System32\SHELL32.dll,174" `
     -Description "Open Supabase dashboard"
 

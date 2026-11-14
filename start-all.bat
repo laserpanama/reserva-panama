@@ -15,7 +15,7 @@ echo ✅ Services starting in separate windows!
 echo.
 echo 🌐 Frontend: http://localhost:3000
 echo 🔧 Backend API: http://localhost:8000
-echo 📊 Supabase: https://tciilqtmjdhuxxvlurgz.supabase.co
+echo 📊 Supabase: https://YOUR_PROJECT_REF.supabase.co
 echo.
 echo 📋 Next steps:
 echo 1. Open http://localhost:3000 in your browser

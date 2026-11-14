@@ -93,7 +93,7 @@ Write-Host "   npm run dev" -ForegroundColor Gray
 Write-Host "`n🌐 URLs DE ACCESO:" -ForegroundColor Yellow
 Write-Host "• API Backend: http://localhost:8000/docs" -ForegroundColor White
 Write-Host "• Frontend App: http://localhost:3000" -ForegroundColor White
-Write-Host "• Supabase Dashboard: https://app.supabase.com/project/tciilqtmjdhuxxvlurgz" -ForegroundColor White
+Write-Host "• Supabase Dashboard: https://app.supabase.com/project/YOUR_PROJECT_REF" -ForegroundColor White
 
 Write-Host "`n⚠️  SOLUCIÓN DE PROBLEMAS:" -ForegroundColor Red
 Write-Host "• Si hay errores de Python: python -m pip install --upgrade pip" -ForegroundColor White
