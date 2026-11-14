@@ -46,8 +46,11 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-orange-50 to-amber-50">
       {/* Hero Section */}
-      <div className="relative overflow-hidden bg-gradient-to-r from-orange-500 to-amber-500 text-white">
-        <div className="absolute inset-0 bg-black/10"></div>
+      <div
+        className="relative overflow-hidden bg-gradient-to-r from-orange-500 to-amber-500 text-white bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('/hero.jpg')" }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/45 to-black/30"></div>
         <div className="relative container mx-auto px-4 py-20">
           <div className="max-w-3xl">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
